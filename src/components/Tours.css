@@ -1,0 +1,27 @@
+.tours-container {
+    padding: 20px;
+}
+  
+.title {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 6vh;
+    padding: 20px;
+    border: 7px dashed palevioletred;
+}
+  
+  .cards-container {
+    display: flex;
+    
+    
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  /* @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column; /* Switch to a column layout on smaller screens */
+    /* }
+  } */ 
+  

@@ -1,0 +1,104 @@
+/* write your css here */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 6vh;
+    padding: 20px;
+    border: 7px dashed palevioletred;
+}
+.tour-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin:1rem;
+    width: 400px;
+    height: max-content;
+    border: 1px solid #ccc;
+    align-items: center ;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.image {
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover; 
+}
+.tour-info{
+    margin:20px 50px;
+}   
+.price{
+    color: rgb(9, 167, 114);
+    font-size: 1.3rem;
+}
+.name{
+    font-size: 1.5rem;
+}
+.description span{
+    color: rgb(71, 71, 240);
+}
+.description span:hover{
+    cursor: pointer;
+}
+.btn{
+    background-color: rgb(255, 144, 144);
+    border-color: rgb(255, 61, 61);
+    color: black;
+    width: 300px;
+    font-family: "Poppins",sans-serif;
+    margin: 2px;
+    font-weight: 400;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(255, 61, 61);
+    transition: all 0.2s;
+}
+.Refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn-white{
+    border: 1px solid white;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ccc;
+    cursor: pointer;
+
+}
+.btn-white:hover{
+    border-color: rgb(2, 2, 2);
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
